@@ -12,20 +12,20 @@ spec:
   minReadySeconds: 15
   strategy:
     type: RollingUpdate
-    rollingUpdate: 
+    rollingUpdate:
       maxUnavailable: 1
-      maxSurge: 1 
+      maxSurge: 1
   template:
     metadata:
       labels:
         app: sa-web-app
     spec:
       containers:
-      - image: rinormaloku/sentiment-analysis-web-app
-        imagePullPolicy: Always
-        name: sa-web-app
-        env:
-          - name: SA_LOGIC_API_URL
-            value: "http://sa-logic"
-        ports:
-          - containerPort: 8080
+        - image: gcr.io/amazing-autumn-398923/qiuyangz/sentiment-analysis-web-app
+          imagePullPolicy: Always
+          name: sa-web-app
+          env:
+            - name: SA_LOGIC_API_URL
+              value: "http://sa-logic"
+          ports:
+            - containerPort: 8080

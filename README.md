@@ -1,10 +1,18 @@
-This repository contains the source files needed to follow the series [Kubernetes and everything else](https://rinormaloku.com/series/kubernetes-and-everything-else/) or summarized as an article in [Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers](https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)
+## Description
+Practice orchestration of a microservice-based sentimental analysis application and run it successfully on Google Kubernetes Engine. This application accepts a sentence as input and it uses text analysis to calculate the emotion of the input sentence.
+  
 
-To learn more about Kubernetes and other related topics check the following examples with the **Sentiment Analysis** application:
+## URLs to the Docker Hub images used 
+**sentiment-analysis-frontend**:  https://hub.docker.com/r/qiuyangz/sentiment-analysis-frontend
+**sentiment-analysis-web-app**: https://hub.docker.com/r/qiuyangz/sentiment-analysis-frontend
+**sentiment-analysis-logic**: https://hub.docker.com/r/qiuyangz/sentiment-analysis-logic
 
-* [Kubernetes Volumes in Practice](https://rinormaloku.com/kubernetes-volumes-in-practice/):
-* [Ingress Controller - simplified routing in Kubernetes](https://www.orange-networks.com/blogs/210-ingress-controller-simplified-routing-in-kubernetes)
-* [Docker Compose in Practice](https://github.com/rinormaloku/k8s-mastery/tree/docker-compose)
-* [Istio around everything else series](https://rinormaloku.com/series/istio-around-everything-else/)
-* [Simple CI/CD for Kubernetes with Azure DevOps](https://www.orange-networks.com/blogs/224-azure-devops-ci-cd-pipeline-to-deploy-to-kubernetes)
-* Envoy series - to be added!
+## Demo
+https://youtu.be/MBRYW97ctWI
+
+## Code changes
+https://youtu.be/sU71vl_3P68
+
+## Reference
+https://github.com/rinormaloku/k8s-mastery
+https://www.freecodecamp.org/news/learn-kubernetes-in-under-3-hours-a- detailed-guide-to-orchestrating-containers-114ff420e882
