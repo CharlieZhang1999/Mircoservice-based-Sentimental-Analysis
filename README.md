@@ -1,6 +1,21 @@
 ## Description
 Practice orchestration of a microservice-based sentimental analysis application and run it successfully on Google Kubernetes Engine. This application accepts a sentence as input and it uses text analysis to calculate the emotion of the input sentence.
 
+## App Structures
+This application consists of the following microservices:
+- SA-Frontend: a Nginx web server that serves our ReactJS static files.
+- SA-WebApp: a Java Web Application that handles requests from the frontend.
+- SA-Logic: a python application that performs Sentiment Analysis.
+
+## Workflow
+
+This interaction is best illustrated by showing how the data flows between them:
+- A client application requests the index.html (which in turn requests bundled scripts of ReactJS application)
+- The user interacting with the application triggers requests to the Spring WebApp.
+- Spring WebApp forwards the requests for sentiment analysis to the Python app.
+- Python Application calculates the sentiment and returns the result as a response.
+- The Spring WebApp returns the response to the React app. (Which then represents the information to the user.)
+
 
 ## Steps to get the application to work on Google Kubernetes Engine (GKE)
 1. First, I cloned the repo https://github.com/rinormaloku/k8s-masteryz to my local computer. 

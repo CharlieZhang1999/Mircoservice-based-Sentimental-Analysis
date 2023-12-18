@@ -2274,8 +2274,13 @@
   "resolved" "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-4.0.1.tgz"
   "version" "4.0.1"
 
+"dotenv@^16.3.1":
+  "integrity" "sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
+  "version" "16.3.1"
+
 "dotenv@4.0.0":
-  "integrity" "sha1-hk7xN5rO1Vzm+V3r7NzhefegzR0="
+  "integrity" "sha512-XcaMACOr3JMVcEv0Y/iUM2XaOsATRZ3U1In41/1jjK6vJZ2PZbQ1bzCG8uvaByfaBpl9gqc9QWJovpUGBXLLYQ=="
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz"
   "version" "4.0.0"
 
@@ -5764,10 +5769,17 @@
   "resolved" "https://registry.npmjs.org/progress/-/progress-2.0.0.tgz"
   "version" "2.0.0"
 
-"promise@^7.1.1", "promise@8.0.1":
+"promise@^7.1.1":
   "integrity" "sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg=="
   "resolved" "https://registry.npmjs.org/promise/-/promise-7.3.1.tgz"
   "version" "7.3.1"
+  dependencies:
+    "asap" "~2.0.3"
+
+"promise@8.0.1":
+  "integrity" "sha512-6NO4VAynZF2J958bGr+U5mPDwK5n7Vi/S0mCW7bke3bJmcALGjCywH8sl6a2eN+xIX6Q1exH2lmqyjR9PKTiwg=="
+  "resolved" "https://registry.npmjs.org/promise/-/promise-8.0.1.tgz"
+  "version" "8.0.1"
   dependencies:
     "asap" "~2.0.3"
 
