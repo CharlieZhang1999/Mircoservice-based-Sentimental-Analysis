@@ -1,5 +1,6 @@
 ## Description
 Practice orchestration of a microservice-based sentimental analysis application and run it successfully on Google Kubernetes Engine. This application accepts a sentence as input and it uses text analysis to calculate the emotion of the input sentence.
+![Sentimental Analysis](./polarity_screenshot.png)
 
 ## App Structures
 This application consists of the following microservices:
